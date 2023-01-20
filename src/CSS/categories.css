@@ -1,0 +1,32 @@
+.product-categories {
+  margin: 0% 10%;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  margin: 2% 0%;
+}
+
+.category-card {
+  padding: 20px;
+}
+
+.button {
+  color: white;
+  background-color: #008542;
+  width: 125px;
+  position: relative;
+  left: 50%;
+  bottom: 3%;
+}
+
+@media screen and (max-width: 1280px) {
+  .categories {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+  }
+}

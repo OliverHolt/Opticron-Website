@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #e6e7e8;
+  min-height: 20vh;
+  display: grid;
+  grid-template-areas:
+    "one one one one one one"
+    "two two two two . three";
+  color: white;
+}
+
+.company-logo {
+  grid-area: "one";
+  width: 100%;
+}
+
+.Opticron {
+  color: #4f9b76;
+  font-size: xx-large;
+  position: absolute;
+  left: 10%;
+}
+
+.App-link {
+  color: #515150;
+  font-size: medium;
+  margin: 10px;
+}
+
+.links {
+  padding: 15vh 0vh 0vh 0vh;
+  display: flex;
+  justify-content: space-evenly;
+  grid-area: "two";
+}
+
+.searchBar {
+  padding: 16vh 0vh 0vh 10vh;
+  grid-area: "three";
+}
+.search {
+  width: 300px;
+}
+
+@media screen and (max-width: 800px) {
+  .links {
+    display: none;
+  }
+  .searchBar {
+    padding: 16vh 0vh 0vh 0vh;
+    grid-area: "three";
+  }
+}

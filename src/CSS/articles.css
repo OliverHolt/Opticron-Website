@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.article-card {
+  padding: 20px;
+}
+
+.article-button {
+  color: white;
+  background-color: #008542;
+  width: 75px;
+}
+
+@media screen and (max-width: 1280px) {
+  .main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+  }
+  .article-card {
+    padding: 0px;
+  }
+}
