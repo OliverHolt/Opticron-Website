@@ -20,7 +20,7 @@ The database which stores all the information for this app will be hosted on you
 
 This will set-up the database, seed the database with data and then have your machine listen to port 5000. This is needed in order for the front-end UI to make GET requests to the database.
 
-After that, open a new terminal (don't close the one above) and follow these steps:
+After that, download this repo, open a new terminal (don't close the one above) and follow these steps:
 
 1. cd into /Opticron-Website
 2. In your terminal, run this command: npm start
