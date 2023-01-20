@@ -12,10 +12,11 @@ Of course I am willing (and excited) to learn how to build apps using the Founda
 
 The database which stores all the information for this app will be hosted on your local machine. In order to set-up the database, folow these steps:
 
-1. cd into the backend folder (/Opticron-Website/BackEnd)
-2. In your terminal, run this command: npm run setup-dbs
-3. Then this command: npm run seed
-4. And finally this command: npm start
+1. Download the backend repository from: https://github.com/OliverHolt/Opticron-Website-Backend
+2. cd into the folder in your terminal
+3. In your terminal, run this command: npm run setup-dbs
+4. Then this command: npm run seed
+5. And finally this command: npm start
 
 This will set-up the database, seed the database with data and then have your machine listen to port 5000. This is needed in order for the front-end UI to make GET requests to the database.
 
